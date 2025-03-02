@@ -1,0 +1,50 @@
+.pricing {
+  background: $tertiary-color;
+  font-size: 1.6rem;
+  text-align: center;
+
+  &__title {
+    font-size: 3.7rem;
+    margin-bottom: 3.2rem;
+    text-transform: uppercase;
+    // text-align: center;
+  }
+
+  &__card {
+    &-box {
+      background: rgba(255, 255, 255, 0.1);
+      padding: 4rem;
+      border-radius: 3rem;
+      margin-bottom: 3.2rem;
+    }
+
+    &-title {
+      font-size: 1.92rem;
+      text-transform: uppercase;
+    }
+
+    &-price {
+      font-size: 4.8rem;
+      color: $primary-color;
+      font-weight: 700;
+      margin-bottom: 1.6rem;
+    }
+
+    &-list {
+      text-align: left;
+      line-height: 2.5;
+      font-weight: 300;
+    }
+
+    &-item i {
+      color: $primary-color;
+      margin-right: 0.8rem;
+    }
+  }
+}
+
+.pricing-notes {
+  padding: 3rem 2rem;
+  color: #9f9caf;
+  text-align: center;
+}

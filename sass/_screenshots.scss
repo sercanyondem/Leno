@@ -1,0 +1,12 @@
+.screenshots {
+  background: $tertiary-color;
+  text-align: center;
+
+  &__title {
+    font-size: 3.7rem;
+    text-transform: uppercase;
+    border-bottom: 2px solid $primary-color;
+    width: 30rem;
+    margin: 0 auto 4rem;
+  }
+}

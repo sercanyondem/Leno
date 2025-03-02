@@ -1,0 +1,43 @@
+.navbar {
+  font-size: 1.6rem;
+  padding: 1.6rem 3.2rem;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  background: transparent;
+  transition: all 0.3s ease-in-out;
+  &.navbar--scroll {
+    background-color: rgba(38, 36, 49, 0.8);
+    backdrop-filter: blur(10px);
+  }
+  &__logo {
+    width: 11.2rem;
+    height: 3.6rem;
+  }
+
+  &__container {
+  }
+
+  &__menu {
+    &-list {
+      font-weight: 600;
+    }
+
+    &-item {
+    }
+
+    &-link {
+      &:hover {
+        color: $primary-color;
+      }
+
+      &--primary {
+        color: $primary-color;
+        &:hover {
+          color: #fff;
+        }
+      }
+    }
+  }
+}

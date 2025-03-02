@@ -1,0 +1,37 @@
+.details {
+  font-size: 1.6rem;
+  &__grid {
+    &-content {
+      max-width: 50rem;
+      width: 100%;
+    }
+
+    &-heading {
+      font-size: 3.2rem;
+      margin-bottom: 3.2rem;
+      line-height: 1.2;
+    }
+
+    &-description {
+      line-height: 1.6;
+      margin-bottom: 2rem;
+    }
+  }
+
+  &__icon {
+    i {
+      color: $primary-color;
+      margin-bottom: 1.6rem;
+    }
+
+    &-amount {
+      font-size: 5.6rem;
+      font-weight: 600;
+    }
+
+    &-title {
+      font-size: 2.1rem;
+      font-weight: 400;
+    }
+  }
+}
